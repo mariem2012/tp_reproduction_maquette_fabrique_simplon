@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body{
+   position: relative;
+}
+header {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    height: 70px;
+    padding: 0 10%;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    z-index: 10;
+}
+nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+nav img{
+     width: 10%;
+}
+nav ul{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding-right: 40px;
+    margin-left: 300px;
+}
+nav ul img {
+    width: 13px;
+    color: black;
+    margin-top: 7px;
+}
+nav #button {
+    cursor: pointer;
+    margin-right: 20px;
+    padding:6px;
+    border-radius: 10px;
+    border:none;
+    background-color:#ce0033 ;
+    color: #ffffff;
+    font-size: 7px;
+    width: 50px;
+    font-weight: bold;
+    
+
+}
+nav ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:black;
+    transition: color 0.3s;
+    font-weight: bold;
+}
+nav ul a:hover {
+    color: #ce0033;
+}
+
+/* Accueil css */
+#accueil{
+    height: 700px;
+    background-color: #fafafa;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+} 
+#accueil h1 {
+    font-weight: bold;
+    color: #ce0033;
+    font-size: 35px;
+    
+}
+.group {
+    display: flex;
+    width: 90%;
+    margin-top: 50px;
+}
+.left{
+    height: 140px;
+    width: 40%;
+    text-align: right;
+    background-color: #ce0033;
+    border-radius: 0px 0px 80px 0px;
+    margin-top: 20px;
+    margin-right: 20px;
+    box-shadow: 0px 10px #de5e7d, 0px 20px #efbcc8;
+}
+.left h2 {
+    color: white;
+    font-size: 35px;
+    padding: 18px;
+}
+.right {
+    position: relative;
+    width: 350px;
+    height: 340px;
+    margin: 10px;
+    margin-left: 170px;
+}
+.right .div_rouge{
+    background-color: #ce0033;
+    position: absolute;
+    width: 100%;
+    height: 430px;
+    top: 0;
+    left: 0;
+    transform: rotate(6deg);
+    border-radius: 10px;
+}
+.right .div_blanc {
+    background-color: white;
+    position: relative;
+    margin: 30px;
+    width: 110%;
+    height: 430px;
+    border-radius: 10px;
+    bottom: 10px;
+    border: 1px solid #f8b5ba;
+
+}
+.right .div_blanc P{
+    line-height: 2;
+}
+.div_blanc .guillemet_haut{
+    margin-right: 250px;
+    margin-top: 20px;
+
+}
+.div_blanc .guillemet_bas{
+    margin-left: 250px;
+    margin-top: 10px;
+}
+
+/* pedagogie css */
+#pedagogie {
+    height: 450px;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+#pedagogie h1 {
+    color: #ce0033;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.text {
+     margin-left: -150px;
+}
+.text h3{
+   color: #ce0033;
+   font-style: bold;
+}
+.text P{
+    line-height: 2;
+}
+/* .border_barre{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+} */
+.barre {
+    background-color: #ce0033;
+    width: 100px;
+    height: 10px;
+    border: none;
+    margin-left: 580px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+/* pedagogie active css */
+#pedagogie_active{
+    height: 600px;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.six_pliers {
+    width: 50%;
+    margin-top: 30px;
+    display: grid;
+   gap: 30px;
+    grid-template-columns: repeat(2, 1);
+    grid-template-rows: repeat(3, 175px);
+}
+.six_pliers .plier{
+    width: 250px;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+    border-bottom: 4px solid #ce0033;
+    padding: 20px;
+    
+    
+}
+.pliers h2{
+    color: #ce0033;
+    
+
+}
+.plier h2{
+     color: #ce0033;
+     font-size: 35px;
+
+}
+.plier h6{
+    font-size: 15px;
+}
+.plier P{
+    color: rgb(51, 49, 49);
+    margin-top: 8px;
+}
+.plier1 {grid-column: 1; grid-row: 1;}
+.plier2 {grid-column: 2; grid-row: 1;}
+
+.plier3 {grid-column: 1; grid-row: 2;}
+.plier4 {grid-column: 2; grid-row: 2;}
+
+.plier5 {grid-column: 1; grid-row: 3;}
+.plier6 {grid-column: 2; grid-row: 3;}
