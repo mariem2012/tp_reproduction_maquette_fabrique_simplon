@@ -1,14 +1,15 @@
 * {
     margin: 0;
-    padding: 0;
+        padding: 0;
+
 
 }
 body{
+   
    position: relative;
 }
 header {
     display: flex;
-    /* align-items: center; */
     justify-content: space-around;
     height: 70px;
     padding: 0 10%;
@@ -24,14 +25,14 @@ nav{
     width: 100%;
 }
 nav img{
-     width: 10%;
+    width: 10%;
 }
 nav ul{
     flex: 1;
     display: flex;
     justify-content: center;
     padding-right: 40px;
-    margin-left: 300px;
+    margin-left: 30px;
 }
 nav ul img {
     width: 13px;
@@ -85,20 +86,25 @@ nav ul a:hover {
     width: 90%;
     margin-top: 50px;
 }
+.group img {
+   margin-right: 300px;
+   margin-top: 50px;
+}
 .left{
-    height: 140px;
+    height: 130px;
     width: 40%;
     text-align: right;
     background-color: #ce0033;
     border-radius: 0px 0px 80px 0px;
-    margin-top: 20px;
-    margin-right: 20px;
+    margin-top: 80px;
+    margin-left: 10px;
     box-shadow: 0px 10px #de5e7d, 0px 20px #efbcc8;
 }
-.left h2 {
+.left p {
     color: white;
     font-size: 35px;
     padding: 18px;
+    font-weight: bold;
 }
 .right {
     position: relative;
@@ -114,7 +120,7 @@ nav ul a:hover {
     height: 430px;
     top: 0;
     left: 0;
-    transform: rotate(6deg);
+    transform: rotate(8deg);
     border-radius: 10px;
 }
 .right .div_blanc {
@@ -143,10 +149,11 @@ nav ul a:hover {
 
 /* pedagogie css */
 #pedagogie {
-    height: 450px;
     align-items: center;
-    margin-left: 50px;
-    margin-right: 50px;
+    /* margin-left: 50px;
+    margin-right: 50px; */
+    margin-top: 60px;
+    
     
 }
 #pedagogie h1 {
@@ -190,9 +197,12 @@ nav ul a:hover {
 /* pedagogie active css */
 #pedagogie_active{
     height: 600px;
+    display: flex;
     align-items: center;
+    justify-content: center;
     margin-left: 50px;
     margin-right: 50px;
+    margin-top: 100px;
 }
 
 .six_pliers {
@@ -237,3 +247,480 @@ nav ul a:hover {
 
 .plier5 {grid-column: 1; grid-row: 3;}
 .plier6 {grid-column: 2; grid-row: 3;}
+
+.demontration img{
+    border-radius: 12px;
+    box-shadow: 20px -15px 0px rgba(255,0,0,10) , 30px -20px 20px rgba(0, 0, 0, 0.3);
+    margin-left: 70px;
+    margin-top: 40px;
+    
+}
+
+/* nos valeurs css */
+#nos_valeurs {
+    height: 600px;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#nos_valeurs h1{
+    color: #ce0033;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 70px;
+}
+.valeurs {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.left_one #btn{
+    cursor: pointer;
+    box-shadow: 0px 13px 13px -17px rgba(0, 0, 0, 0.5);
+    margin-right: 20px;
+    padding:10px;
+    border-radius: 25px;
+    border:none;
+    background-color:#ce0033 ;
+    color: #ffffff;
+    font-size: 20px;
+    width: 150px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.left_one h2{
+    color: #ce0033;
+    font-size: 30px;
+    margin-top: 20px;
+
+}
+.left_one P{
+    line-height: 2;
+}
+.right_one{
+    width: 300px;
+    position: relative;
+    margin-top: 40px;
+}
+.respect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    padding-left: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: white; 
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+} 
+.respect .numérique {
+    margin-right: 10px;
+    color: #ce0033;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #e4aab8;
+    text-align: center;
+    align-content: center;
+    
+}
+.respect div img {
+    position: absolute;
+    top: 140px;
+    left: -32px;
+}
+
+/* nos chiffres css */
+#nos_chiffres {
+   margin-top: 40px;
+    height: 350px;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#nos_chiffres h1{
+   font-size: 40px;
+   text-align: center;
+   margin-bottom: 40px;
+   font-weight: bold;
+   color: #ce0033;
+}
+.chiffres {
+    height: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #ce0033;
+    color:white;
+}
+.chiffres h2{
+    font-size: 40px;
+}
+.chiffres p{
+    font-size: 20px;
+}
+
+
+/* notre equipe css */
+#notre_equipe {
+    align-items: center;
+}
+#notre_equipe .text-equipe h1{
+   font-size: 40px;
+   text-align: center;
+   font-weight: bold;
+    color: #ce0033;
+}
+#notre_equipe .text-equipe p{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.equipe {
+    /* background-color: #bd5252; */
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.equipe img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.profil {
+    padding: 13px;
+    background-color: white;
+    width: 18%;
+    height: 300px;
+    line-height: 1.5;
+    font-size: 12px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+.profil h5 {
+   color: #ce0033;
+   font-size: 17px;
+}
+.equipe .profil p {
+   font-size: 12px;
+   color: #585555;
+   margin-top: 12px;
+}
+.reseau {
+    display: flex;
+    align-self: start;
+    justify-content: flex-start;
+}
+.reseau img {
+    margin-top: 25px;
+    margin-left: 12px;
+    width: 22px;
+    height: 20px; 
+}
+
+/* recretements css */
+#recrutements {
+    
+}
+#recrutements h1 {
+    color: #ce0033;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 90px;
+
+}
+.recrutement {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 2fr;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 30px;
+    
+}
+
+ .recrutement .recrutement_img img{
+    width: 100%;
+}
+ .recrutement .recrutement_text h3{
+    font-size: 30px;
+    color: #ce0033;
+
+ }
+  .recrutement .recrutement_text p{
+    font-size: 16px;
+    line-height: 2;
+  }
+ .recrutement .offre{
+    background-color: #d3c7ca;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    border-radius: 15px;
+    
+ }
+ .recrutement .offre h2{
+    color: #ce0033;
+    margin-bottom: 10px ;
+
+ }
+ .recrutement .offre hr{
+    border: 1px solid #ce0033;
+    margin-bottom: 15px;
+    margin-top: 15px;
+ }
+
+.recrutement .offre .formateur{
+    display: flex;
+    justify-content: space-between;
+}
+.recrutement .offre .formateur hr{
+    width: 30px;
+    height: 3px;
+    background-color: #ce0033;
+    position: relative;
+    right: 80px;
+}
+.recrutement .offre .resume{
+    display: flex;
+    justify-content: space-between;
+}
+
+.recrutement .offre .resume .left-resume h6{
+    font-size: 18px;
+    color: #ce0033;
+}
+.recrutement .offre .resume .left-resume p{
+    width: 115px;
+    font-size: 16px;
+    line-height: 1.2;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.recrutement .offre .referent{
+    display: flex;
+    justify-content: space-between;
+}
+.recrutement .offre .referent i{
+    font-size: 25px;
+    position: relative;
+    right: 30px;
+    color: #ce0033;
+}
+.recrutement .offre .referent h3{
+    font-size: 25px;
+}
+.recrutement .offre .afficher{
+    display: flex;
+    justify-content: right;
+
+}
+.recrutement .offre .afficher a{
+
+    color: black;
+}
+.recrutement .offre .afficher i{
+    position: relative;
+    
+    font-size: 25px;
+}
+.recrutement .offre button{
+    width: 130px;
+    height: 6vh;
+    border-radius: 20px;
+    background-color: #ce0033;
+    border: 1px solid #ce0033;
+    color: #ffffff;
+}
+
+.recrutement .offre .resume .right-resume{
+    background-color: #ffffff;
+    padding: 30px;
+    font-size: 13px;
+    border-radius: 10px;height: 14vh;
+    position: relative;
+    right: 120px;
+    
+}
+.recrutement .offre .resume .right-resume div{
+    display: flex;
+    margin-bottom: 10px;
+}
+.recrutement .offre .resume .right-resume div i{
+    margin-right: 8px;
+    font-size: 18px;
+}
+
+.recrutement form .input-g{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 23px;
+}
+.recrutement form .input-g input{
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid rgb(221, 215, 215);
+}
+.recrutement form  .joindre{
+    margin-top: 20px;
+    display: flex;
+    justify-content: right;
+    color: #ce0033;
+}
+.recrutement form .joindre i{
+    transform: rotate(-20deg);
+    font-size: 20px;
+}
+.recrutement form textarea{
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 1px solid rgb(221, 215, 215);
+}
+.recrutement form .agree{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.recrutement form button{
+    width: 120px;
+    height: 5vh;
+    color: #ffffff;
+    background-color: #ce0033;
+    border-radius: 20px;
+    border: 1px solid #ce0033;
+    margin-bottom: 20px;
+
+}
+.recrutement form .fields{
+    color: #919191;
+}
+
+
+/* nos partenaires css */
+#nos_partenaires {
+    align-items: center;
+     
+}
+
+#nos_partenaires .partenaires {
+    align-items: center;
+    text-align: center;
+
+}
+
+#nos_partenaires h1 {
+    align-items: center;
+    text-align: center;
+    color: #ce0033;
+    margin-top: 60px;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 30px;
+
+}
+
+.logo-partenaire img{
+    width: 200px;
+    height: 150px;
+    
+}
+.logo-partenaire {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+/* avant footer css */
+#avant_footer {
+    background-color: rgb(20, 20, 20);
+
+}
+.container-div {
+    width: 90%;
+    margin-top: 70px;
+    padding: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(238, 229, 229);
+    line-height: 2;
+}
+.svgs {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+.Coordonnées .email {
+    margin-top: 10px;
+    line-height: 1.6;
+}
+.form {
+    position: relative;
+}
+.form #email {
+   
+    margin-top: 20px;
+    padding: 14px;
+    border: none;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.form #joindre {
+    position: absolute;
+    left: 161px;
+    border-radius: 0px 10px 10px 0px;
+    color: #ffffff;
+    background-color: #ce0033;
+    border: none;
+    padding: 14px;
+    bottom: 0px;
+
+}
+
+/* footer css */
+#footer {
+    background-color: #ce0033;
+}
+#footer .copyright {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+}
+.copyright P {
+     font-size: 20px;
+}
+.copyright h4 {
+    color: black;
+    font-size: 12px;
+}
+.copyright span {
+    font-size: 15px;
+    color: white;
+    
+}
+#logo-blanc {
+    /* width: 100px; */
+    
+}
+
+
